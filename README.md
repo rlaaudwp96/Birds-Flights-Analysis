@@ -75,3 +75,58 @@ This project was completed using:
 ---
 
 ## Repository Structure
+```
+Bird-Flight-Analysis
+│
+├── Myungje_Kim_Final_Project.qmd
+├── Myungje_Kim_Final_Project.html
+└── README.md
+```
+
+| File | Description |
+|----|----|
+| `Myungje_Kim_Final_Project.qmd` | Quarto source file containing the full analysis |
+| `Myungje_Kim_Final_Project.html` | Rendered report with code, analysis, and visualizations |
+| `README.md` | Project documentation |
+
+---
+
+## Key Findings
+
+- Bird flight behavior varies across different times of the day.
+- Certain flight phases appear more frequently during specific periods.
+- Separating California observations allows comparison with observations from other states.
+
+Further analysis could apply statistical modeling to formally test the relationship between time of day and flight phase.
+
+---
+
+## Reproducibility
+To reproduce the analysis:
+
+1. Clone this repository.
+2. Open the `.qmd` file in **RStudio**.
+3. Run:
+
+```r
+quarto render Myungje_Kim_Final_Project.qmd
+```
+
+This will generate the HTML report.
+
+---
+
+## Future Work
+
+Possible extensions of this project include:
+
+- Logistic regression modeling of flight phase probabilities
+- Time-based analysis of bird flight behavior
+- Spatial analysis of bird observations
+- Machine learning classification of flight phases
+
+---
+
+## License
+
+This project is intended for academic and educational purposes.
